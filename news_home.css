@@ -1,5 +1,6 @@
+/* Suggestions */
 /* Author: Braeden Geist */
-/* Last checked: 11/25 */
+/* Last checked: 11/29 */
 
 body{
     background-color: orange;
@@ -92,7 +93,7 @@ a {
 }
 
 .featured_info h2 {
-    font-size: 20px;
+    font-size: 25px;
     color: #333;
     font-family: Cambria;
     font-weight: 1500;
@@ -186,7 +187,7 @@ a {
 }
 
 .stat_box h3 {
-    font-size: 16px;
+    font-size: 20px;
     margin-top: 0px;
     margin-bottom: 10px;
     color: #333;
@@ -205,6 +206,7 @@ a {
 
 .stat_item p {
     margin: 0;
+    font-size: 15px;
     color: #333;
     font-family: Georgia;
 }
