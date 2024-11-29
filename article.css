@@ -27,6 +27,7 @@ header {
     z-index: 1000;
     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
     width: auto;
+    font-family: Arial, sans-serif;
 }
 
 nav {
