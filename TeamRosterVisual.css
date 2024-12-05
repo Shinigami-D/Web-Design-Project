@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    text-align: center;
+}
+
+ul {
+    list-style-position: inside;
+    list-style-type: disc;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+header {
+    background-color: orange;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    align-items: center;
+    padding: 10px 20px;
+    z-index: 1000;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
+    width: auto;
+    font-family: Arial, sans-serif;;
+}
+
+nav {
+    display: flex;
+    gap: 40px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.GHOSTLogo {
+    width: auto;
+    height: 70px;
+}
