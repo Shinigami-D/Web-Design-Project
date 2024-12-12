@@ -1,0 +1,340 @@
+/* Suggestions */
+/* Author: Braeden Geist */
+/* Last checked: 11/29 */
+
+body{
+    background-color: orange;
+    background-image: url(background_texture.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: orange;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    align-items: center;
+    padding: 10px 20px;
+    z-index: 1000;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
+    width: auto;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    gap: 40px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.GHOSTLogo {
+    width: auto;
+    height: 70px;
+}
+
+/* CONTAINER FOR MAIN CONTENT AND SIDEBAR */
+.main_container {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+/* MAIN CONTENT SECTION */
+.main_content {
+    width: 65%;
+    float: left;
+}
+
+/* ALL ANCHORS */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* FEATURED ARTICLE DESIGN */
+#featured_article {
+    width: 80%;
+    margin-left: 20%;
+    margin-top: 20px;
+    background-color: beige;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#featured_article img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+.featured_info {
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.featured_info h2 {
+    font-size: 25px;
+    color: #333;
+    font-family: Cambria;
+    font-weight: 1500;
+}
+
+.featured_info h5 {
+    color: #666;
+    font-size: 14px;
+    margin: 5px 0;
+    font-family: Cambria;
+    font-style: italic;
+}
+
+/* ADDITIONAL ARTICLES DESIGN */
+
+.additional_articles {
+    width: 80%;
+    margin-left: 20%;
+    border-radius: 8px;
+}
+
+.additional_articles h2 {
+    font-size: 25px;
+    color: beige;
+    margin-bottom: 15px;
+    background-color: black;
+    width: 158px;
+    font-family: Verdana;
+}
+
+.articles_grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* STYLING FOR EACH ARTICLE CARD */
+.article_card {
+    background-color: beige;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+
+.article_card img {
+    width: 30%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+.article_info {
+    padding: 10px;
+    vertical-align: middle;
+}
+
+.article_info h3 {
+    font-size: 20px;
+    color: #333;
+    margin-top: 25px;
+    margin-left: 15px;
+    font-family: Cambria;
+    font-weight: 1500;
+}
+
+.article_info h5 {
+    color: #666;
+    font-size: 14px;
+    margin-left: 15px;
+    font-family: Cambria;
+    font-style: italic;
+}
+
+/* SIDEBAR STYLING */
+.stats_sidebar {
+    float: right;
+    margin-left: 25px;
+    width: 20%;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* INDIVIDUAL STATBOX STYLING */
+.stat_box {
+    background-color: beige;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.stat_box h3 {
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: #333;
+    font-family: Verdana;
+}
+
+.stat_item {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #ddd;
+    font-size: 14px;
+    padding-top: 10px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.stat_item p {
+    margin: 0;
+    font-size: 15px;
+    color: #333;
+    font-family: Georgia;
+}
+
+/* DIVISION STANDINGS TABLE STYLING */
+.division_standings_table {
+    width: 100%;
+    max-width: 600px;
+    border-collapse: collapse;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.division_standings_table, .division_standings_table th, .division_standings_table td {
+    border: 1px solid #ddd;
+}
+
+.division_standings_table th, .division_standings_table td {
+    padding: 0px;
+}
+
+.team_name {
+    text-align: left;
+    padding-left: 15px;
+    font-weight: bold;
+}
+
+.division_standings_table th {
+    background-color: orange;
+    color: #333;
+    font-family: Georgia;
+}
+
+.division_standings_table .team_name{
+    background-color: beige;
+    color: #333;
+    font-family: Georgia;
+    font-size: 14px;
+}
+
+.division_standings_table td {
+    background-color: beige;
+    color: #333;
+    font-family: Verdana;
+    font-size: 14px;
+}
+
+footer {
+    background: linear-gradient(45deg, orange, darkorange);
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
+    flex-wrap: wrap;
+    border-top: 5px solid white; /* Add a border on top */
+    position: relative; /* Allows for additional decorations */
+}
+
+footer::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background: linear-gradient(to right, red, yellow, green, blue, purple);
+    z-index: 1; /* Creates a rainbow separator */
+}
+
+footer .footer-content {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer .social-media {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+footer .social-icon {
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+footer .social-icon:hover {
+    color: #f1f1f1;
+    transform: scale(1.2); /* Slightly enlarge the icon */
+}
+
+footer .footer-divider {
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 100%;
+    margin: 10px 0;
+}
+
+footer p {
+    margin: 0;
+    font-style: italic;
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+@media (max-width: 600px) {
+    footer {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    footer .footer-content {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    footer .social-media {
+        margin-top: 10px;
+    }
+}
